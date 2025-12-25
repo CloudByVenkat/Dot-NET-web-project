@@ -6,7 +6,7 @@ Git (download from git-scm.com)
 A GitHub account
 
 ## 1. Create a new .NET web project
-PS F:\demo-web-app> dotnet new mvc
+    PS F:\demo-web-app> dotnet new mvc
 The template "ASP.NET Core Web App (Model-View-Controller)" was created successfully.
 This template contains technologies from parties other than Microsoft, see https://aka.ms/aspnetcore/8.0-third-party-notices for details.
 
@@ -17,10 +17,10 @@ Restoring F:\demo-web-app\demo-web-app.csproj:
 Restore succeeded.
 
 
-PS F:\demo-web-app> dir
+    PS F:\demo-web-app> dir
 
 
-    Directory: F:\demo-web-app
+Directory: F:\demo-web-app
 
 
 Mode                 LastWriteTime         Length Name
@@ -38,9 +38,9 @@ d-----        25/12/2025     21:23                wwwroot
 
 ## 2. Initiate Git and push to Github or Azure Repo
 
-PS F:\demo-web-app> git init
+    PS F:\demo-web-app> git init
 Initialized empty Git repository in F:/demo-web-app/.git/
-PS F:\demo-web-app> dotnet new gitignore
+  PS F:\demo-web-app> dotnet new gitignore
 The template "dotnet gitignore file" was created successfully.
 
 PS F:\demo-web-app> git add .
